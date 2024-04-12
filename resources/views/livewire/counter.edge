@@ -1,0 +1,11 @@
+<div class="border border-gray-200 p-2 rounded-lg">
+    <h1 class="font-medium text-xl">Counter</h1>
+
+    <button @click="$wire.set('count', $wire.count + 1)" class="bg-blue-400 rounded-lg p-2 text-white">Increment</button>
+
+    <div class="flex items-center gap-2 mt-2">
+        <button class="bg-blue-400 rounded-lg p-2 text-white" wire:click="decrement">-</button>
+        <h2 class="text-lg">{{ count }}</h2>
+        <button class="bg-blue-400 rounded-lg p-2 text-white" wire:click="increment">+</button>
+    </div>
+</div>

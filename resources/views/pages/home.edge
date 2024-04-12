@@ -1,0 +1,22 @@
+@component('components/layouts/main')
+
+<div class="p-8 space-y-8">
+  <div class="grid grid-cols-4 gap-4">
+    <livewire:counter />
+    <livewire:counter />
+    <livewire:counter count="42" />
+    <livewire:counter />
+    <livewire:counter />
+    <livewire:counter />
+    <livewire:counter />
+    <livewire:counter />
+  </div>
+
+
+  <livewire:todos />
+
+  <div>
+    <a href="/my-page" wire:navigate>Go to MyPage</a>
+  </div>
+</div>
+@end
