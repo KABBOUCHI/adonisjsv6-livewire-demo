@@ -30,8 +30,8 @@ dependencies:
     specifier: ^1.7.1
     version: 1.8.0
   adonisjs-livewire:
-    specifier: ^0.1.10
-    version: 0.1.10(@adonisjs/core@6.5.0)(@adonisjs/http-server@7.2.0)(@adonisjs/session@7.3.0)(@adonisjs/shield@8.1.1)(edge.js@6.0.2)
+    specifier: ^0.1.12
+    version: 0.1.12(@adonisjs/core@6.5.0)(@adonisjs/http-server@7.2.0)(@adonisjs/session@7.3.0)(@adonisjs/shield@8.1.1)(edge.js@6.0.2)
   edge.js:
     specifier: ^6.0.1
     version: 6.0.2
@@ -1616,8 +1616,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  /adonisjs-livewire@0.1.10(@adonisjs/core@6.5.0)(@adonisjs/http-server@7.2.0)(@adonisjs/session@7.3.0)(@adonisjs/shield@8.1.1)(edge.js@6.0.2):
-    resolution: {integrity: sha512-9IvnC+ZlmnsIiqiu0gAgJtTMcp5OJ+UNecRH+kXIf8PvOBk1P4ATlQDbpO4lH+q3zB/v+Dh2jl0x/wumPosP4g==}
+  /adonisjs-livewire@0.1.12(@adonisjs/core@6.5.0)(@adonisjs/http-server@7.2.0)(@adonisjs/session@7.3.0)(@adonisjs/shield@8.1.1)(edge.js@6.0.2):
+    resolution: {integrity: sha512-7Z5iQX6D54Gnxdxxe5DJ3fqJzqF9f2AyjtCYosIZ5+ki9cl2Ecn94q+NHlaEAAgEsCW/6o6UuGEr7/US1YGFDA==}
     peerDependencies:
       '@adonisjs/core': ^6.2.2
       '@adonisjs/http-server': ^7.0.2
