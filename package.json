@@ -57,7 +57,7 @@
     "@adonisjs/static": "^1.1.1",
     "@adonisjs/vite": "^2.0.2",
     "@vinejs/vine": "^1.7.1",
-    "adonisjs-livewire": "^0.1.16",
+    "adonisjs-livewire": "^0.1.17",
     "edge.js": "^6.0.1",
     "reflect-metadata": "^0.2.1"
   },
