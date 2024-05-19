@@ -15,11 +15,14 @@ export default class Form extends Component {
   }
 
   async submit() {
-    const payload = await this.ctx.request.validateUsing(createPostValidator, {
+    const payload = await createPostValidator.validate(this.data)
+    console.log(payload)
+
+    // or
+    const payload2 = await this.ctx.request.validateUsing(createPostValidator, {
       data: this.data,
     })
-
-    console.log(payload)
+    console.log(payload2)
 
     this.ctx.session.flash('message', 'Form submitted successfully!')
   }
