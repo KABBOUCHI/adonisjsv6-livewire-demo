@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@adonisjs/auth':
     specifier: ^9.1.1
-    version: 9.2.0(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.3.0)(@japa/plugin-adonisjs@3.0.1)
+    version: 9.2.0(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.4.0)(@japa/plugin-adonisjs@3.0.1)
   '@adonisjs/core':
     specifier: ^6.2.2
     version: 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
@@ -15,11 +15,11 @@ dependencies:
     specifier: ^20.1.0
     version: 20.5.1(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)
   '@adonisjs/session':
-    specifier: ^7.1.1
-    version: 7.3.0(@adonisjs/core@6.5.0)(edge.js@6.0.2)
+    specifier: ^7.4.0
+    version: 7.4.0(@adonisjs/core@6.5.0)(edge.js@6.0.2)
   '@adonisjs/shield':
     specifier: ^8.1.0
-    version: 8.1.1(@adonisjs/core@6.5.0)(@adonisjs/session@7.3.0)(edge.js@6.0.2)
+    version: 8.1.1(@adonisjs/core@6.5.0)(@adonisjs/session@7.4.0)(edge.js@6.0.2)
   '@adonisjs/static':
     specifier: ^1.1.1
     version: 1.1.1(@adonisjs/core@6.5.0)
@@ -30,8 +30,8 @@ dependencies:
     specifier: ^1.7.1
     version: 1.8.0
   adonisjs-livewire:
-    specifier: ^0.1.20
-    version: 0.1.20(@adonisjs/core@6.5.0)(@adonisjs/http-server@7.2.0)(@adonisjs/session@7.3.0)(@adonisjs/shield@8.1.1)(edge.js@6.0.2)
+    specifier: ^0.1.21
+    version: 0.1.21(@adonisjs/core@6.5.0)(@adonisjs/http-server@7.2.0)(@adonisjs/session@7.4.0)(@adonisjs/shield@8.1.1)(edge.js@6.0.2)
   edge.js:
     specifier: ^6.0.1
     version: 6.0.2
@@ -150,7 +150,7 @@ packages:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  /@adonisjs/auth@9.2.0(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.3.0)(@japa/plugin-adonisjs@3.0.1):
+  /@adonisjs/auth@9.2.0(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.4.0)(@japa/plugin-adonisjs@3.0.1):
     resolution: {integrity: sha512-t3XQibKzyQU+FTodpwc6wEBBk5PRfxvVi8uKKqjHzEiijIcsMMnmQdKPMztUdxS3HlbdaZvAvPUHFSBx+KMfpg==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
@@ -175,7 +175,7 @@ packages:
       '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
       '@adonisjs/lucid': 20.5.1(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)
       '@adonisjs/presets': 2.4.0(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)
-      '@adonisjs/session': 7.3.0(@adonisjs/core@6.5.0)(edge.js@6.0.2)
+      '@adonisjs/session': 7.4.0(@adonisjs/core@6.5.0)(edge.js@6.0.2)
       '@japa/plugin-adonisjs': 3.0.1(@adonisjs/core@6.5.0)(@japa/runner@3.1.2)
       basic-auth: 2.0.1
     transitivePeerDependencies:
@@ -448,15 +448,15 @@ packages:
       '@poppinss/colors': 4.1.3
       string-width: 7.1.0
 
-  /@adonisjs/session@7.3.0(@adonisjs/core@6.5.0)(edge.js@6.0.2):
-    resolution: {integrity: sha512-ntRDubmOJf8fHZY7IlXHVv4QKgGwfMsWghj9rBh9TVWLVwPeHLBnfHF3oLw25nbXM6hQTa1fPpencol71KrPnw==}
+  /@adonisjs/session@7.4.0(@adonisjs/core@6.5.0)(edge.js@6.0.2):
+    resolution: {integrity: sha512-RPlCZhTbIM5qrbH/c0tYrZlXPHknwdV3wNzI0yYr9Nsj9JCNMzAMPe8k8c+is1hp0wLNbVM+TdNsDPpSlRhk4A==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
-      '@adonisjs/core': ^6.2.0
-      '@adonisjs/redis': ^8.0.0
-      '@japa/api-client': ^2.0.2
-      '@japa/browser-client': ^2.0.2
-      edge.js: ^6.0.1
+      '@adonisjs/core': ^6.6.0
+      '@adonisjs/redis': ^8.0.1
+      '@japa/api-client': ^2.0.3
+      '@japa/browser-client': ^2.0.3
+      edge.js: ^6.0.2
     peerDependenciesMeta:
       '@adonisjs/redis':
         optional: true
@@ -468,11 +468,12 @@ packages:
         optional: true
     dependencies:
       '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
+      '@poppinss/macroable': 1.0.2
       '@poppinss/utils': 6.7.3
       edge.js: 6.0.2
     dev: false
 
-  /@adonisjs/shield@8.1.1(@adonisjs/core@6.5.0)(@adonisjs/session@7.3.0)(edge.js@6.0.2):
+  /@adonisjs/shield@8.1.1(@adonisjs/core@6.5.0)(@adonisjs/session@7.4.0)(edge.js@6.0.2):
     resolution: {integrity: sha512-b/rIypxfG8HKPRvWYJo7qhvAlvYCFXn7/A7eb/QI/PQV4fMmW4iF9tAykxl5peu4WJCHCwXwR3Y6/j0VerQcmQ==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
@@ -490,7 +491,7 @@ packages:
         optional: true
     dependencies:
       '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
-      '@adonisjs/session': 7.3.0(@adonisjs/core@6.5.0)(edge.js@6.0.2)
+      '@adonisjs/session': 7.4.0(@adonisjs/core@6.5.0)(edge.js@6.0.2)
       '@poppinss/utils': 6.7.3
       csrf: 3.1.0
       edge.js: 6.0.2
@@ -530,7 +531,7 @@ packages:
         optional: true
     dependencies:
       '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
-      '@adonisjs/shield': 8.1.1(@adonisjs/core@6.5.0)(@adonisjs/session@7.3.0)(edge.js@6.0.2)
+      '@adonisjs/shield': 8.1.1(@adonisjs/core@6.5.0)(@adonisjs/session@7.4.0)(edge.js@6.0.2)
       defu: 6.1.4
       edge-error: 4.0.1
       edge.js: 6.0.2
@@ -1616,8 +1617,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  /adonisjs-livewire@0.1.20(@adonisjs/core@6.5.0)(@adonisjs/http-server@7.2.0)(@adonisjs/session@7.3.0)(@adonisjs/shield@8.1.1)(edge.js@6.0.2):
-    resolution: {integrity: sha512-2O8x1JeqVBEagHRNBTP9hzXWp+9A57xbZ91I9mTH/hTotxHXwfUk3hQJStF8dpfmR1sCgOiHlyuu03rrBpTsmA==}
+  /adonisjs-livewire@0.1.21(@adonisjs/core@6.5.0)(@adonisjs/http-server@7.2.0)(@adonisjs/session@7.4.0)(@adonisjs/shield@8.1.1)(edge.js@6.0.2):
+    resolution: {integrity: sha512-TiFwoUkfOqp7PNgxDdsgvFhJHyCOM6Qqxfz6ZGU8Dvuz1B/syYL09YryEJWXtl4tl3gcO+Tv78VMf0u7yLUr0w==}
     peerDependencies:
       '@adonisjs/core': ^6.2.2
       '@adonisjs/http-server': ^7.0.2
@@ -1627,8 +1628,8 @@ packages:
     dependencies:
       '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
       '@adonisjs/http-server': 7.2.0(@adonisjs/application@8.2.1)(@adonisjs/encryption@6.0.1)(@adonisjs/events@9.0.1)(@adonisjs/fold@10.1.0)(@adonisjs/logger@6.0.2)
-      '@adonisjs/session': 7.3.0(@adonisjs/core@6.5.0)(edge.js@6.0.2)
-      '@adonisjs/shield': 8.1.1(@adonisjs/core@6.5.0)(@adonisjs/session@7.3.0)(edge.js@6.0.2)
+      '@adonisjs/session': 7.4.0(@adonisjs/core@6.5.0)(edge.js@6.0.2)
+      '@adonisjs/shield': 8.1.1(@adonisjs/core@6.5.0)(@adonisjs/session@7.4.0)(edge.js@6.0.2)
       crypto-js: 4.2.0
       edge-parser: 8.2.2
       edge.js: 6.0.2
